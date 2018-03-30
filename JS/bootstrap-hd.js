@@ -1,4 +1,4 @@
-<!---night mode! jquery finds/selects the .onbutton element (the "on" button for night mode); action "click" selects the "p" element (alternately the "jumbotron" or "body") and changes the css to make the text white and background for the body and jumbotron black-->
+<!---night mode! jquery finds/selects the .onbutton element (the "on" button for night mode); action "click" selects the various elements and changes the css (makes text white/red and background black)-->
 
 $(".onbutton").click(function() {
   $("h1").css("color", "white");
@@ -16,12 +16,23 @@ $(".onbutton").click(function() {
   $("body").css("background-color", "black");
 });
 $(".onbutton").click(function() {
-  $(".table").css("color", "red");
+  $(".table").css("color", "#ff8080");
 });
-<!-- undo night mode! jquery finds/selects the .offbutton element (to undo the styling of the night mode); action "click" selects the "p", "jumbotron" and "body" elements and removes the style attributes -->
+
+$(".onbutton").click(function() {
+  $(".footnotes").css("background-color", "black");
+});
+
+
+
+<!-- undo night mode! jquery finds/selects the .offbutton element (to undo the styling of the night mode); action "click" selects various elements and removes the style attributes -->
 
 $(".offbutton").click(function() {
 $(".jumbotron").removeAttr("style");
+});
+
+$(".offbutton").click(function() {
+$(".footnotes").removeAttr("style");
 });
 
 $(".offbutton").click(function() {
