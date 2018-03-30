@@ -7,4 +7,8 @@
 
 <p>My custom Javascript introduces a "night mode" that flips the background/text colors and turns it off.</p>
 
+<p>JQuery: finds/selects the .onbutton element (the "on" button for night mode); action "click" selects the various elements and changes the css (makes text white/red and background black); then JQuery: finds/selects the .offbutton element (to undo the styling of the night mode); action "click" selects various elements and removes the style attributes.</p>
+
+<p>I over-ride bootstrap's CSS rules with my own selectors. I add some padding to the h1 to bring down my content a little in the jumbotron, change the size of the h2 to better fit the page, and indent the p elements for readability. I target the class elements .blockquote, .caption, and .footnotes to change color, add padding, and align the text.</p>
+
 <p>Future development could include: switching the two-button "night mode" with a sleek toggle and stickying it to the top of the viewport, adding the meat of the thesis into the page after extensive rewrites (probably as a multipage document, and potentially adding video clips to supplement the later parts of the essay.</p>
