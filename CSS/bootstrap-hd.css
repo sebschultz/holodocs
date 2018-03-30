@@ -23,3 +23,8 @@ p{
   color:red;
   font-size:12px;
 }
+
+/*aligns the footnotes the to right side for a little contrast*/
+.footnotes{
+  text-align: right;
+}
