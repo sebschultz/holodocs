@@ -10,6 +10,10 @@ p{
   text-indent:1em;
 }
 
+.mainnav{
+  padding-bottom:2em;
+}
+
 /*turns the blockquote red to make it pop a little more*/
 .blockquote{
   color:#ff8080;
